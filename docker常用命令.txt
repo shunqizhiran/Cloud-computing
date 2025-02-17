@@ -1,0 +1,17 @@
+使用docker常用命令
+docker run：创建一个新的容器并运行一个命令
+docker start :启动一个或多个已经被停止的容器
+docker stop :停止一个运行中的容器
+docker restart :重启容器
+docker kill :杀掉一个运行中的容器
+docker rm ：删除一个或多个容器
+docker rm -f:强制删除一个或多个容器
+docker ps : 列出容器
+docker top :查看容器中运行的进程信息，支持 ps 命令参数。
+docker pull : 从镜像仓库中拉取或者更新指定镜像
+docker push : 将本地的镜像上传到镜像仓库,要先登陆到镜像仓库
+docker search : 从Docker Hub查找镜像
+docker images : 列出本地镜像。
+docker rmi : 删除本地一个或多少镜像。
+
+
